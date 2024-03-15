@@ -1,4 +1,4 @@
-import { uploadData } from 'aws-amplify/storage';
+import { uploadData } from 'amplify/backend/storage';
 
 try {
   const result = await uploadData({
