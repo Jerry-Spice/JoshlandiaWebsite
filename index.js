@@ -1,3 +1,3 @@
-import Amplify  from '@aws-amplify/core';
-import config from './aws-exports';
+import Amplify  from './amplify';
+import config from './amplify.config';
 Amplify.configure(config);
