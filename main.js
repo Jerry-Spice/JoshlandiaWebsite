@@ -1,11 +1,11 @@
-import { Amplify } from 'aws-amplify';
+import { Amplify } from './aws-amplify';
 
 import amplifyconfig from './amplifyconfiguration.json';
 
 
 Amplify.configure(amplifyconfig);
 
-import { list } from 'aws-amplify/storage';
+import { list } from './aws-amplify/storage';
 
 
 try {
